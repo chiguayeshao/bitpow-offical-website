@@ -15,9 +15,9 @@ const Navbar = () => {
                             <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-1-1">Economic Proof of Work</a></li>
                             <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-2-1">Wider Sharding</a></li>
                             <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-3-1">Reduce Cost</a></li>
-                            <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-3-1">Telegram</a></li>
-                            <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-3-1">Discord</a></li>
-                            <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-3-1">Links</a></li>
+                            <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-4-1">Telegram</a></li>
+                            <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-5-1">Discord</a></li>
+                            <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-6-1">Links</a></li>
                         </ul>
                     </div>
                     <div className="w-1/2 xl:w-1/3">

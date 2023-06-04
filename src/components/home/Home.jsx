@@ -3,6 +3,7 @@ import Navbar from '../navbar/Navbar'
 import Headers from '../headers/Headers'
 import Features from '../features/Features'
 import HowItWorks from '../howItWorks/HowItWorks'
+import Footers from '../footer/Footers'
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Headers />
             <Features />
             <HowItWorks />
+            <Footers />
         </>
     )
 }
