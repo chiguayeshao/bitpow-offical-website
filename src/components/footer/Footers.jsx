@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faGithub, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 const Footers = () => {
     return (
@@ -8,19 +10,13 @@ const Footers = () => {
                 <a href="/blog" className="mx-3 text-lg">Blog</a>
                 <a href="/partners" className="mx-3 text-lg">Partners</a>
             </div>
-            <div className="mb-4 flex flex-row justify-center">
-                <a href="https://twitter.com/yourhandle" className="mx-3 text-sm">
-                    <img src="/path/to/twitter/logo" alt="Twitter Logo" />
-                </a>
-                <a href="https://github.com/yourhandle" className="mx-3 text-sm">
-                    <img src="/path/to/github/logo" alt="GitHub Logo" />
-                </a>
-                <a href="https://youtube.com/yourhandle" className="mx-3 text-sm">
-                    <img src="/path/to/youtube/logo" alt="Youtube Logo" />
-                </a>
+            <div className="mb-4 flex flex-row gap-10 justify-center">
+                <FontAwesomeIcon icon={faTwitter} />
+                <FontAwesomeIcon icon={faGithub} />
+                <FontAwesomeIcon icon={faYoutube} />
             </div>
             <div>
-                <p className="text-sm">© 2023 Your Company, All Rights Reserved</p>
+                <p className="text-sm">© 2023 BitPoW</p>
             </div>
         </footer>
     )
