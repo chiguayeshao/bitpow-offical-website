@@ -1,4 +1,5 @@
 import React from 'react'
+import reactlogo from '../../assets/react.svg'
 
 const Navbar = () => {
     return (
@@ -7,7 +8,7 @@ const Navbar = () => {
                 <div className="flex justify-between items-center w-full">
                     <div className="w-1/2 xl:w-1/3">
                         <a className="block max-w-max" href="#">
-                            <img className="h-8" src="flex-ui-assets/logos/flex-ui-green-light.svg" alt="" data-config-id="auto-img-1-1" />
+                            <img className="h-8" src={reactlogo} alt="" data-config-id="auto-img-1-1" />
                         </a>
                     </div>
                     <div className="w-1/2 xl:w-1/3">
@@ -17,11 +18,14 @@ const Navbar = () => {
                             <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-3-1">Reduce Cost</a></li>
                             <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-4-1">Telegram</a></li>
                             <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-5-1">Discord</a></li>
-                            <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-6-1">Links</a></li>
+                            <li className="mr-12"><a className="text-coolGray-500 hover:text-coolGray-900 font-medium" href="#" data-config-id="auto-txt-6-1">Twitter</a></li>
                         </ul>
                     </div>
                     <div className="w-1/2 xl:w-1/3">
-                        <div className="hidden xl:flex items-center justify-end"><a className="inline-block py-2 px-4 mr-2 leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium rounded-md" href="#" data-config-id="auto-txt-5-1">Log In</a><a className="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md" href="#" data-config-id="auto-txt-6-1">Sign Up</a></div>
+                        <div className="hidden xl:flex items-center justify-end">
+                            <a className="inline-block py-2 px-4 mr-2 leading-5 text-coolGray-500 hover:text-coolGray-900 bg-transparent font-medium rounded-md" href="#" data-config-id="auto-txt-5-1">English</a>
+                            <a className="inline-block py-2 px-4 text-sm leading-5 text-green-50 bg-green-500 hover:bg-green-600 font-medium focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 rounded-md" href="#" data-config-id="auto-txt-6-1">Connect</a>
+                        </div>
                     </div>
                 </div>
                 <button className="navbar-burger self-center xl:hidden">
